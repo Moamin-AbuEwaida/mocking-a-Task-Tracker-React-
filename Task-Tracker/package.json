@@ -1,0 +1,20 @@
+{
+  "name": "your-project-name",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.1.0",
+    "react-scripts": "4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "json-server --watch db.json --port 3004",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
